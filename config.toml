@@ -22,3 +22,13 @@ disable404 = true
     # it’s quick and easy to change the styling and colour scheme.
 
     styles = "styles.css"
+    
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: jc@sirot.org"
+        title = "jc@sirot.org"
