@@ -1,7 +1,7 @@
 baseURL = "http://resume.sirot.org/"
 languageCode = "en-us"
 title = "My Resume"
-theme = "hugo-orbit-theme"
+theme = "hugo-orbit-jc-theme"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -21,8 +21,14 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-3.css"
     
+    # Profile section
+    [params.profile]
+        name = "Jean-Christophe Sirot"
+        tagline = "Senior Software Engineer"
+        avatar = "profile.jpg"
+
     # Contact section
     [params.contact]
         enable = true
@@ -32,3 +38,157 @@ disable404 = true
         icon = "fa-envelope"
         url = "mailto: jc@sirot.org"
         title = "jc@sirot.org"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/jcsirot"
+        title = "linkedin.com/in/jcsirot"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/jcsirot"
+        title = "github.com/jcsirot"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/jcsirot"
+        title = "@jcsirot"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        college = "Telecom Nancy"
+        dates = "1999 - 2002"
+
+        [[params.education.list]]
+        degree = "MSc in Electronic Commerce — Technical"
+        college = "Dublin City University"
+        dates = "2002"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Full professional proficiency"
+
+        [[params.language.list]]
+        language = "German"
+        level = "Limited working proficiency"
+
+        [[params.language.list]]
+        language = "Japanese"
+        level = "Elementary proficiency"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Who I am"
+        summary = "I am a senior software development engineer with 18 years of experience in multiple fields (security, cloud native computing). I love designing softwares, sharing knowledge and best practices with the development teams to help them build better products."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+        
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "Oct 2017 - Jan 2020"
+        company = "Docker Inc, Paris"
+        details = '''
+- Development of a platform to automatically run E2E tests of Kubernetes in order to verify the integration with Docker Entreprise.
+- Work on the certification of Docker Entreprise as a CNCF Certified Kubernetes platform.
+- Docker Compose maintainer / support engineer
+- Docker App developer, worked on the CNAB specification conformance for Docker App'''
+
+        [[params.jobs.list]]
+        position = "Lead Developer / Java Expert"
+        dates = "Feb 2016 - Sep 2017"
+        company = "Weborama, Paris"
+        details = '''Lead developer on the BigSea project (socio demographic and behavioural profile factory). Technologies: Java, Apache Storm, Hadoop, Spark, AWS
+- Develop new features, fix bugs and improve platform architecture
+- Spread development best practices, automate integration tests, improve test coverage
+- Refactor CI/CD: install new maven repository and docker registry, upgrade to CI/CD as code (use Jenkins pipelines and Jenkinsfiles).'''
+
+        [[params.jobs.list]]
+        position = "Quality Assurance Manager"
+        dates = "Nov 2014 - Feb 2016"
+        company = "Arkena, Ivry-sur-Seine"
+        details = '''Manager of the Arkena QA team: 4 engineers in Paris and 2 engineers Stockholm. The team was in charge of:
+- The validation of the product specifications and the deliverables (CDN, Cloud4Media products, Arkena Video Platform and OTT solutions). Setup of integration and end-to-end tests.
+- The continuous integration platform and the test automation. Tools: Jenkins, Mesos, Docker, Ansible
+- The setup and the management of the pre-production platforms'''
+
+        [[params.jobs.list]]
+        position = "CDN Quality Assurance Engineer"
+        dates = "Dec 2013 - Nov 2014"
+        company = "Arkena, Ivry-sur-Seine"
+        details = '''Design and setup of the Arkena CDN validation platform. Automation of the CDN components validation process:
+- Installation and management of the QA platform and services (CI, quality and test reporting tools, etc)
+- Build the automatic deployment and validation of CDN components. A dedicated Jenkins plugin has been developed for this purpose
+- Develop new testing tools
+- Write and execute test plans (feature tests, load tests, fuzzy tests)'''
+
+        [[params.jobs.list]]
+        position = "Build & Quality Assurance Manager"
+        dates = "Apr 2011 - Nov 2013"
+        company = "Cryptolog, Paris"
+        details = '''Lead of the quality assurance team.
+- Management of the build environments (Windows / Linux / Mac OS X) and tools for all development teams.
+- Development and software quality guides. Quality metrics analysis. Automated testing.'''
+
+        [[params.jobs.list]]
+        position = "Lead Developer"
+        dates = "Jan 2005 - Apr 2011"
+        company = "Cryptolog, Paris"
+        details = "Technical lead of digital signature product suite. Managing the development team (4 people)."
+
+        [[params.jobs.list]]
+        position = "Security Software Engineer"
+        dates = "Oct 2002 - Jan 2005"
+        company = "Cryptolog, Paris"
+        details = "Development of libraries and servers applications in the field of digital signature and Public Key Infrastructure (Java and C)."
+
+    # Extra activities section
+    [params.activities]
+        enable = true
+        icon = "fa-handshake-o"
+        #icon = "fa-briefcase"
+        title = "Extra activities"
+
+        [[params.activities.list]]
+        position = "Co-founder"
+        dates = "May 2016 - Today"
+        company = "Association Cloud Native Paris (CNCF Paris), Paris"
+        details = "We created a non-profit organisation to promote Cloud Native concepts, technologies and the [Cloud Native Computing Foundation](https://cncf.io). We organize one meetup per month on [meetup.com](https://meetup.com/fr-FR/Cloud-Native-Computing-Paris/)."
+
+        [[params.activities.list]]
+        position = "Organizer"
+        dates = "Dec 2019 - Today"
+        company = "Kubernetes community Days Paris"
+        details = "We are organizing the very first [Kubernetes Community Days](https://kubernetescommunitydays.org/) in Paris."
+
+        [[params.activities.list]]
+        position = "Crew member"
+        dates = "Nov 2015 - Today"
+        company = "Paris Java User Group"
+        details = "Member of the team organizing the [Paris JUG](https://https://www.parisjug.org/) monthly meetup. Since 2016 I am responsible of the *Young Blood*, the Paris JUG January event where some unexperienced speakers are coached and invited to do a 15 minute talk in front of the JUG public."
