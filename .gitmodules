@@ -1,0 +1,4 @@
+[submodule "jcsirotresume.github.io"]
+	path = jcsirotresume.github.io
+	url = https://github.com/jcsirotresume/jcsirotresume.github.io.git
+	branch = master
