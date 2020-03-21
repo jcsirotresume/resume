@@ -1,6 +1,6 @@
-baseURL = "http://resume.sirot.org/"
+baseURL = "https://jcsirotresume.github.io/"
 languageCode = "en-us"
-title = "My Resume"
+title = "Jean-Christophe Sirot Resume"
 theme = "hugo-orbit-jc-theme"
 
 # Do not build files for websites. Need them? Set to false
@@ -64,13 +64,13 @@ disable404 = true
 
         [[params.education.list]]
         degree = "MSc in Computer Science"
-        college = "Telecom Nancy"
-        dates = "1999 - 2002"
+        college = "Telecom Nancy, Nancy, France"
+        dates = "1999 — 2002"
 
         [[params.education.list]]
         degree = "MSc in Electronic Commerce — Technical"
-        college = "Dublin City University"
-        dates = "2002"
+        college = "Dublin City University, Dublin, Ireland"
+        dates = "2001 — 2002"
 
     # Languages section
     [params.language]
@@ -112,7 +112,7 @@ disable404 = true
         
         [[params.jobs.list]]
         position = "Software Engineer"
-        dates = "Oct 2017 - Jan 2020"
+        dates = "Oct 2017 — Jan 2020"
         company = "Docker Inc, Paris"
         details = '''
 - Development of a platform to automatically run E2E tests of Kubernetes in order to verify the integration with Docker Entreprise.
@@ -122,7 +122,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Lead Developer / Java Expert"
-        dates = "Feb 2016 - Sep 2017"
+        dates = "Feb 2016 — Sep 2017"
         company = "Weborama, Paris"
         details = '''Lead developer on the BigSea project (socio demographic and behavioural profile factory). Technologies: Java, Apache Storm, Hadoop, Spark, AWS
 - Develop new features, fix bugs and improve platform architecture
@@ -131,7 +131,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Quality Assurance Manager"
-        dates = "Nov 2014 - Feb 2016"
+        dates = "Nov 2014 — Feb 2016"
         company = "Arkena, Ivry-sur-Seine"
         details = '''Manager of the Arkena QA team: 4 engineers in Paris and 2 engineers Stockholm. The team was in charge of:
 - The validation of the product specifications and the deliverables (CDN, Cloud4Media products, Arkena Video Platform and OTT solutions). Setup of integration and end-to-end tests.
@@ -140,7 +140,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "CDN Quality Assurance Engineer"
-        dates = "Dec 2013 - Nov 2014"
+        dates = "Dec 2013 — Nov 2014"
         company = "Arkena, Ivry-sur-Seine"
         details = '''Design and setup of the Arkena CDN validation platform. Automation of the CDN components validation process:
 - Installation and management of the QA platform and services (CI, quality and test reporting tools, etc)
@@ -150,7 +150,7 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Build & Quality Assurance Manager"
-        dates = "Apr 2011 - Nov 2013"
+        dates = "Apr 2011 — Nov 2013"
         company = "Cryptolog, Paris"
         details = '''Lead of the quality assurance team.
 - Management of the build environments (Windows / Linux / Mac OS X) and tools for all development teams.
@@ -158,13 +158,13 @@ disable404 = true
 
         [[params.jobs.list]]
         position = "Lead Developer"
-        dates = "Jan 2005 - Apr 2011"
+        dates = "Jan 2005 — Apr 2011"
         company = "Cryptolog, Paris"
         details = "Technical lead of digital signature product suite. Managing the development team (4 people)."
 
         [[params.jobs.list]]
         position = "Security Software Engineer"
-        dates = "Oct 2002 - Jan 2005"
+        dates = "Oct 2002 — Jan 2005"
         company = "Cryptolog, Paris"
         details = "Development of libraries and servers applications in the field of digital signature and Public Key Infrastructure (Java and C)."
 
@@ -177,18 +177,67 @@ disable404 = true
 
         [[params.activities.list]]
         position = "Co-founder"
-        dates = "May 2016 - Today"
+        dates = "May 2016 — Today"
         company = "Association Cloud Native Paris (CNCF Paris), Paris"
         details = "We created a non-profit organisation to promote Cloud Native concepts, technologies and the [Cloud Native Computing Foundation](https://cncf.io). We organize one meetup per month on [meetup.com](https://meetup.com/fr-FR/Cloud-Native-Computing-Paris/)."
 
         [[params.activities.list]]
         position = "Organizer"
-        dates = "Dec 2019 - Today"
+        dates = "Dec 2019 — Today"
         company = "Kubernetes community Days Paris"
         details = "We are organizing the very first [Kubernetes Community Days](https://kubernetescommunitydays.org/) in Paris."
 
         [[params.activities.list]]
         position = "Crew member"
-        dates = "Nov 2015 - Today"
+        dates = "Nov 2015 — Today"
         company = "Paris Java User Group"
         details = "Member of the team organizing the [Paris JUG](https://https://www.parisjug.org/) monthly meetup. Since 2016 I am responsible of the *Young Blood*, the Paris JUG January event where some unexperienced speakers are coached and invited to do a 15 minute talk in front of the JUG public."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Simple Furigana"
+        url = "https://ankiweb.net/shared/info/1444055400"
+        tagline = "An Anki 2.1 add-on providing support for adding or removing furigana on Japanese content in cards."
+
+        [[params.projects.list]]
+        title = "go-polly-tts"
+        url = "https://github.com/jcsirot/go-polly-tts"
+        tagline = "A simple command line interface TTS generator using [Amazon Polly](https://aws.amazon.com/fr/polly/) webservice."
+
+    # Talks section
+    [params.talks]
+        enable = true
+        icon = "fa-comments"
+        title = "Talks"
+
+        [[params.talks.list]]
+        title = "Developing New Applications with Docker App Package"
+        url = "https://www.openslava.sk/2019/#/workshops/04cbc435-e2bb-452a-9871-93d405282e9b"
+        date = "Oct 2019"
+        conference = "OpenSlava 19, Bratislava, Slovakia"
+
+        [[params.talks.list]]
+        title = "Cycle de vie des applications dans Kubernetes (fr)"
+        url = "https://youtu.be/-PrLE3FD6mw"
+        date = "Apr 2019"
+        conference = "Devoxx France 2019, Paris, France"
+
+        [[params.talks.list]]
+        title = "Java dans Docker Bonnes pratiques (fr)"
+        url = "https://fr.slideshare.net/kanedafromparis/java-indocker-devoxxfr-2018"
+        date = "Apr 2018"
+        conference = "Devoxx France 2018, Paris, France and Devoxx Maroc, Marrakech, Nov 2018"
+        details = "Video [https://youtu.be/vzpU2jxrxJ8](https://youtu.be/vzpU2jxrxJ8)"
+
+        [[params.talks.list]]
+        title = "Raconte-moi X.509 : anatomie d'une autorité de certification (fr)"
+        url = "https://fr.slideshare.net/JeanChristopheSirot/racontemoi-x509-anatomie-dune-autorit-de-certification"
+        date = "Apr 2017"
+        conference = "Devoxx France 2017, Paris, France"
+        details = "Video [https://youtu.be/DK2mEx5g-2g](https://youtu.be/DK2mEx5g-2g)"
+

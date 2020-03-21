@@ -1,0 +1,24 @@
+<section class="section talks-section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.talks.icon }}"></i>{{ i18n "talks" }}</h2>
+
+    {{ range .Site.Params.talks.list }}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title"><a href="{{ .url }}">{{ .title }}</a></h3>
+                <div class="time">{{ .date }}</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company">{{ .conference }}</div>
+        </div>
+        <!--//meta-->
+        <div class="details">
+            <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+        </div>
+        <!--//details-->
+    </div>
+    <!--//item-->
+    {{ end }}
+
+</section>
+<!--//section-->

@@ -4,6 +4,8 @@
   translation: Experiences
 - id: activities
   translation: Extra Activities
+- id: talks
+  translation: Talks & Conferences
 - id: interests
   translation: Interests
 - id: language

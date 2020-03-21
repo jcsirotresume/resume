@@ -28,6 +28,10 @@
             {{ partial "projects.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.talks.enable }}
+            {{ partial "talks.html" . }}
+            {{ end }}
+
             {{ if .Site.Params.skills.enable }}
             {{ partial "skills.html" . }}
             {{ end }}
