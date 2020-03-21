@@ -185,7 +185,7 @@ disable404 = true
         position = "Organizer"
         dates = "Dec 2019 — Today"
         company = "Kubernetes community Days Paris"
-        details = "We are organizing the very first [Kubernetes Community Days](https://kubernetescommunitydays.org/) in Paris."
+        details = "We are organizing the very first [Kubernetes Community Days](https://kubernetescommunitydays.org/) in Paris, scheduled for November 2020."
 
         [[params.activities.list]]
         position = "Crew member"
