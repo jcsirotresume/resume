@@ -1,4 +1,4 @@
-baseURL = "https://jcsirotresume.github.io/"
+baseURL = "https://cv.sirot.org/"
 languageCode = "en-us"
 title = "Jean-Christophe Sirot Resume"
 theme = "hugo-orbit-jc-theme"
