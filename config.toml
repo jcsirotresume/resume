@@ -106,7 +106,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Who I am"
-        summary = "I am a senior software development engineer with 18 years of experience in multiple fields (security, cloud native computing). I love designing softwares, sharing knowledge and best practices with the development teams to help them build better products."
+        summary = "I am a senior software development engineer with 18 years of experience in java, cryptography/PKI and cloud native computing. I love designing softwares, sharing knowledge and best practices with the development teams to help them build better products."
 
     # Experiences section
     [params.experiences]
