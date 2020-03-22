@@ -2,6 +2,7 @@ baseURL = "https://cv.sirot.org/"
 languageCode = "en-us"
 title = "Jean-Christophe Sirot Resume"
 theme = "hugo-orbit-jc-theme"
+googleAnalytics = "UA-161581817-1"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = true
@@ -9,6 +10,9 @@ disableSitemap = true
 disable404 = true
 
 [params]
+
+# Global Site
+    title = "Jean-Christophe Sirot Resume"
 
 # Meta
     description = "Jean-Christophe Sirot Resume"
