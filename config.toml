@@ -231,10 +231,11 @@ disable404 = true
         title = "Talks"
 
         [[params.talks.list]]
-        title = "Developing New Applications with Docker App Package"
+        title = "Developing New Applications with Docker App Package (workshop)"
         url = "https://www.openslava.sk/2019/#/workshops/04cbc435-e2bb-452a-9871-93d405282e9b"
         date = "Oct 2019"
         conference = "OpenSlava 19, Bratislava, Slovakia"
+        details = "Workshop details: [https://github.com/jcsirot/docker-app-workshop-dc19](https://github.com/jcsirot/docker-app-workshop-dc19)"
 
         [[params.talks.list]]
         title = "Cycle de vie des applications dans Kubernetes (fr)"
