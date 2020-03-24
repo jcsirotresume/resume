@@ -213,6 +213,17 @@ disable404 = true
         url = "https://github.com/jcsirot/go-polly-tts"
         tagline = "A simple command line interface TTS generator using [Amazon Polly](https://aws.amazon.com/fr/polly/) webservice."
 
+        [[params.projects.list]]
+        title = "digest.js"
+        url = "https://github.com/jcsirot/digest.js"
+        tagline = "A toy library implementing digests, HMAC and PBKDF algorithms in javascript."
+        
+        [[params.projects.list]]
+        title = "Jenkins ansible plugin"
+        url = "https://github.com/jenkinsci/ansible-plugin"
+        tagline = "A jenkins plugin to run ansible ad-hoc commands and playbooks."
+
+
     # Talks section
     [params.talks]
         enable = true
