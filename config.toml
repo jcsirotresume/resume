@@ -170,7 +170,7 @@ disable404 = true
         position = "Security Software Engineer"
         dates = "Oct 2002 — Jan 2005"
         company = "Cryptolog, Paris"
-        details = "Development of libraries and servers applications in the field of digital signature and Public Key Infrastructure (Java and C)."
+        details = "Development of libraries and server applications in the field of digital signature and Public Key Infrastructure (Java and C)."
 
     # Extra activities section
     [params.activities]
@@ -206,7 +206,7 @@ disable404 = true
         [[params.projects.list]]
         title = "Simple Furigana"
         url = "https://ankiweb.net/shared/info/1444055400"
-        tagline = "An Anki 2.1 add-on providing support for adding or removing furigana on Japanese content in cards."
+        tagline = "An [Anki 2.1](https://apps.ankiweb.net/) add-on providing support for adding or removing furigana on Japanese content in cards."
 
         [[params.projects.list]]
         title = "go-polly-tts"
@@ -221,7 +221,7 @@ disable404 = true
         [[params.projects.list]]
         title = "Jenkins ansible plugin"
         url = "https://github.com/jenkinsci/ansible-plugin"
-        tagline = "A jenkins plugin to run ansible ad-hoc commands and playbooks."
+        tagline = "A jenkins plugin to run [ansible](https://www.ansible.com/) ad-hoc commands and playbooks."
 
 
     # Talks section
