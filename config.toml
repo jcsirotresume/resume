@@ -115,6 +115,12 @@ disable404 = true
         title = "Experiences"
         
         [[params.jobs.list]]
+        position = "Lead Software Engineer"
+        dates = "May 2020 — Today"
+        company = "Aircall, Paris"
+        details = '''Lead Software Engineer of the Core/Setup team'''
+
+        [[params.jobs.list]]
         position = "Software Engineer"
         dates = "Oct 2017 — Jan 2020"
         company = "Docker Inc, Paris"
