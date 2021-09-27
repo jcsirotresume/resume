@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:jcsirotresume/jcsirotresume.github.io.git
 	branch = master
+[submodule "hugo-orbit-theme"]
+	path = themes/hugo-orbit-theme
+	url = https://github.com/aerohub/hugo-orbit-theme.git
