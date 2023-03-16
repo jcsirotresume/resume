@@ -30,7 +30,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Jean-Christophe Sirot"
-        tagline = "Senior Software Engineer"
+        tagline = "Staff Engineer"
         avatar = "profile.jpg"
 
     # Contact section
@@ -205,13 +205,13 @@ disable404 = true
 
         [[params.activities.list]]
         position = "Co-founder"
-        dates = "May 2016 — Today"
+        dates = "May 2016 — Present"
         company = "Association Cloud Native Paris (CNCF Paris), Paris"
         details = "Creation of a non-profit organisation to promote Cloud Native concepts, technologies and the [Cloud Native Computing Foundation](https://cncf.io). We organize one meetup per month on [meetup.com](https://meetup.com/fr-FR/Cloud-Native-Computing-Paris/)."
 
         [[params.activities.list]]
         position = "Crew member"
-        dates = "Nov 2015 — Today"
+        dates = "Nov 2015 — Present"
         company = "Paris Java User Group"
         details = "Member of the team organizing the [Paris JUG](https://https://www.parisjug.org/) monthly meetup. Since 2016 I am responsible of the *Young Blood*, the Paris JUG January event where some unexperienced speakers are coached and invited to do a 15 minute talk in front of the JUG public."
 
@@ -226,7 +226,7 @@ disable404 = true
         url = "https://youtu.be/TnxPRKPpEoA"
         date = "Apr 2022"
         conference = "Devoxx France 2022, Paris, France"
-        details = "Une histoire de la machine de chiffrement Enigma et des attaques contre elle effectuées en Pologne et en Grande-Bretagne pendant la seconde guerre mondiale (Slides](https://bit.ly/3CjArC2)"
+        details = "Une histoire de la machine de chiffrement Enigma et des attaques contre elle effectuées en Pologne et en Grande-Bretagne pendant la seconde guerre mondiale ([Slides](https://bit.ly/3CjArC2))"
 
         [[params.talks.list]]
         title = "Developing New Applications with Docker App Package (workshop)"
