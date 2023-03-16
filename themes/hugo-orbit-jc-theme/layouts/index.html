@@ -24,12 +24,12 @@
             {{ partial "activities.html" . }}
             {{ end }}
 
-            {{ if .Site.Params.projects.enable }}
-            {{ partial "projects.html" . }}
-            {{ end }}
-
             {{ if .Site.Params.talks.enable }}
             {{ partial "talks.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.projects.enable }}
+            {{ partial "projects.html" . }}
             {{ end }}
 
             {{ if .Site.Params.skills.enable }}
