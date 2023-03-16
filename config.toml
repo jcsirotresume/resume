@@ -97,6 +97,18 @@ disable404 = true
         language = "Japanese"
         level = "Elementary proficiency"
 
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Learning Japanese at [INALCO](https://www.inalco.fr/)"
+
+        [[params.interests.list]]
+        interest = "Playing Video games and board games"
+
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
@@ -106,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Who I am"
-        summary = "I am a senior software development engineer with 18 years of experience in java, go, cryptography/PKI and cloud native computing. I love designing softwares and application architecture, sharing knowledge and best practices with the development teams to help them build better products."
+        summary = "I am a senior software development engineer with 20 years of experience in various domains, mainly digital signature, Public Key Infrastructure and Cloud Native. I love designing softwares, sharing knowledge and best practices with development teams to help them build better products."
 
     # Experiences section
     [params.experiences]
@@ -115,12 +127,20 @@ disable404 = true
         title = "Experiences"
         
         [[params.jobs.list]]
-        position = "Lead Software Engineer"
-        dates = "May 2020 — Today"
+        position = "Staff Engineer"
+        dates = "Dec 2021 — Present"
         company = "Aircall, Paris"
-        details = '''Team Lead of the User Management team
-- Management of the team. Provide montoring, encourage the use of best development practices
-- Responsible of the design and development of the new Aircall authentication stack and API based on AWS Lambda and Cognito authentication service (Regular login/password, Google Sign-in integration, SAML…)'''
+        details = '''Developer Productivity team
+- Develop and promote internal tools along with best practices for the backend teams (AWS / Serverless micro-services / typescript)
+- Collaborate with the architecture team to define the backend reference architecture'''
+
+        [[params.jobs.list]]
+        position = "Lead Software Engineer"
+        dates = "May 2020 — Dec 2021"
+        company = "Aircall, Paris"
+        details = '''Led the Authentication team of 7 people. The team was responsible for:
+- Extracting the authentication module from a Rails monolith, developing and deploying the new authentication stack
+- Ensuring seamless migration of the customer authentication database'''
 
         [[params.jobs.list]]
         position = "Software Engineer"
@@ -136,49 +156,39 @@ disable404 = true
         position = "Lead Developer / Java Expert"
         dates = "Feb 2016 — Sep 2017"
         company = "Weborama, Paris"
-        details = '''Lead developer on the BigSea project (socio demographic and behavioural profile factory). Technologies: Java, Apache Storm, Hadoop, Spark, AWS
-- Develop new features, fix bugs and improve platform architecture
-- Spread development best practices, automate integration tests, improve test coverage
-- Refactor CI/CD: install new maven repository and docker registry, upgrade to CI/CD as code (use Jenkins pipelines and Jenkinsfiles).'''
+        details = '''As the lead developer of the BigSea team, I was responsible for the migration of the proof of concept product from Apache Storm to a production-ready Kubernetes-based application that creates sociological, demographic, and behavioral profiles.
+- Developed and implemented new features using Java, Hadoop, and Spark
+- Successfully migrated the application to a Kubernetes cluster running on AWS EC2 instances'''
 
         [[params.jobs.list]]
         position = "Quality Assurance Manager"
         dates = "Nov 2014 — Feb 2016"
         company = "Arkena, Ivry-sur-Seine"
-        details = '''Manager of the Arkena QA team: 4 engineers in Paris and 2 engineers Stockholm. The team was in charge of:
-- The validation of the product specifications and the deliverables (CDN, Cloud4Media products, Arkena Video Platform and OTT solutions). Setup of integration and end-to-end tests.
-- The continuous integration platform and the test automation. Tools: Jenkins, Mesos, Docker, Ansible
-- The setup and the management of the pre-production platforms'''
+        details = "Manager of the Arkena QA team: 6 engineers in Paris and Stockholm"
 
         [[params.jobs.list]]
         position = "CDN Quality Assurance Engineer"
         dates = "Dec 2013 — Nov 2014"
         company = "Arkena, Ivry-sur-Seine"
-        details = '''Design and setup of the Arkena CDN validation platform. Automation of the CDN components validation process:
-- Installation and management of the QA platform and services (CI, quality and test reporting tools, etc)
-- Build the automatic deployment and validation of CDN components. A dedicated Jenkins plugin has been developed for this purpose
-- Develop new testing tools
-- Write and execute test plans (feature tests, load tests, fuzzy tests)'''
+        details = "Design and setup the new Arkena CDN validation platform. Automation of the CDN components validation process"
 
         [[params.jobs.list]]
         position = "Build & Quality Assurance Manager"
         dates = "Apr 2011 — Nov 2013"
         company = "Cryptolog, Paris"
-        details = '''Lead of the quality assurance team.
-- Management of the build environments (Windows / Linux / Mac OS X) and tools for all development teams.
-- Development and software quality guides. Quality metrics analysis. Automated testing.'''
+        details = "Lead of the quality assurance team. Management of the build environments (Windows, Linux, OSX) and tools for the dev teams. Development of the software quality guides and quality metrics analysis."
 
         [[params.jobs.list]]
         position = "Lead Developer"
         dates = "Jan 2005 — Apr 2011"
         company = "Cryptolog, Paris"
-        details = "Technical lead of digital signature product suite. Managing the development team (4 people)."
+        details = "Technical lead of digital signature product suite. Manager of a development team of 4 people"
 
         [[params.jobs.list]]
         position = "Security Software Engineer"
         dates = "Oct 2002 — Jan 2005"
         company = "Cryptolog, Paris"
-        details = "Development of libraries and server applications in the field of digital signature and Public Key Infrastructure (Java and C)."
+        details = "Development of libraries and servers applications in the digital signature and Public Key Infrastructure fields. Most develoment was made with Java and C."
 
     # Extra activities section
     [params.activities]
@@ -189,21 +199,61 @@ disable404 = true
 
         [[params.activities.list]]
         position = "Co-founder"
-        dates = "May 2016 — Today"
-        company = "Association Cloud Native Paris (CNCF Paris), Paris"
-        details = "We created a non-profit organisation to promote Cloud Native concepts, technologies and the [Cloud Native Computing Foundation](https://cncf.io). We organize one meetup per month on [meetup.com](https://meetup.com/fr-FR/Cloud-Native-Computing-Paris/)."
+        dates = "May 2022-Present"
+        company = "Kubernetes Community Days France"
+        details = "Creation of Kubernetes Community Days France 2023, a conference focused on Cloud-Native and DevOps, sponsored by the Cloud Native Computing Foundation, which took place in Paris on March 7th, 2023."
 
         [[params.activities.list]]
-        position = "Organizer"
-        dates = "Dec 2019 — Today"
-        company = "Kubernetes community Days Paris"
-        details = "We are organizing the very first [Kubernetes Community Days](https://kubernetescommunitydays.org/events/2020-paris/) in Paris, scheduled for November 2020."
+        position = "Co-founder"
+        dates = "May 2016 — Today"
+        company = "Association Cloud Native Paris (CNCF Paris), Paris"
+        details = "Creation of a non-profit organisation to promote Cloud Native concepts, technologies and the [Cloud Native Computing Foundation](https://cncf.io). We organize one meetup per month on [meetup.com](https://meetup.com/fr-FR/Cloud-Native-Computing-Paris/)."
 
         [[params.activities.list]]
         position = "Crew member"
         dates = "Nov 2015 — Today"
         company = "Paris Java User Group"
         details = "Member of the team organizing the [Paris JUG](https://https://www.parisjug.org/) monthly meetup. Since 2016 I am responsible of the *Young Blood*, the Paris JUG January event where some unexperienced speakers are coached and invited to do a 15 minute talk in front of the JUG public."
+
+    # Talks section
+    [params.talks]
+        enable = true
+        icon = "fa-comments"
+        title = "Speaker experience"
+
+        [[params.talks.list]]
+        title = "Conference: La Cryptanalyse d'Enigma : entre espionnage et mathématiques"
+        url = "https://youtu.be/TnxPRKPpEoA"
+        date = "Apr 2022"
+        conference = "Devoxx France 2022, Paris, France"
+        details = "Une histoire de la machine de chiffrement Enigma et des attaques contre elle effectuées en Pologne et en Grande-Bretagne pendant la seconde guerre mondiale (Slides](https://bit.ly/3CjArC2)"
+
+        [[params.talks.list]]
+        title = "Developing New Applications with Docker App Package (workshop)"
+        url = "https://www.openslava.sk/2019/#/workshops/04cbc435-e2bb-452a-9871-93d405282e9b"
+        date = "Oct 2019"
+        conference = "OpenSlava 19, Bratislava, Slovakia"
+        details = "Workshop details: [https://github.com/jcsirot/docker-app-workshop-dc19](https://github.com/jcsirot/docker-app-workshop-dc19)"
+
+        [[params.talks.list]]
+        title = "Cycle de vie des applications dans Kubernetes"
+        url = "https://youtu.be/-PrLE3FD6mw"
+        date = "Apr 2019"
+        conference = "Devoxx France 2019, Paris, France"
+
+        [[params.talks.list]]
+        title = "Java dans Docker Bonnes pratiques (fr)"
+        url = "https://fr.slideshare.net/kanedafromparis/java-indocker-devoxxfr-2018"
+        date = "Apr 2018"
+        conference = "Devoxx France 2018, Paris, France and Devoxx Maroc, Marrakech, Nov 2018"
+        details = "Video [https://youtu.be/vzpU2jxrxJ8](https://youtu.be/vzpU2jxrxJ8)"
+
+        [[params.talks.list]]
+        title = "Raconte-moi X.509 : anatomie d'une autorité de certification (fr)"
+        url = "https://fr.slideshare.net/JeanChristopheSirot/racontemoi-x509-anatomie-dune-autorit-de-certification"
+        date = "Apr 2017"
+        conference = "Devoxx France 2017, Paris, France"
+        details = "Video [https://youtu.be/DK2mEx5g-2g](https://youtu.be/DK2mEx5g-2g)"
 
     # Projects section
     [params.projects]
@@ -230,38 +280,3 @@ disable404 = true
         title = "Jenkins ansible plugin"
         url = "https://github.com/jenkinsci/ansible-plugin"
         tagline = "A jenkins plugin to run [ansible](https://www.ansible.com/) ad-hoc commands and playbooks."
-
-
-    # Talks section
-    [params.talks]
-        enable = true
-        icon = "fa-comments"
-        title = "Talks"
-
-        [[params.talks.list]]
-        title = "Developing New Applications with Docker App Package (workshop)"
-        url = "https://www.openslava.sk/2019/#/workshops/04cbc435-e2bb-452a-9871-93d405282e9b"
-        date = "Oct 2019"
-        conference = "OpenSlava 19, Bratislava, Slovakia"
-        details = "Workshop details: [https://github.com/jcsirot/docker-app-workshop-dc19](https://github.com/jcsirot/docker-app-workshop-dc19)"
-
-        [[params.talks.list]]
-        title = "Cycle de vie des applications dans Kubernetes (fr)"
-        url = "https://youtu.be/-PrLE3FD6mw"
-        date = "Apr 2019"
-        conference = "Devoxx France 2019, Paris, France"
-
-        [[params.talks.list]]
-        title = "Java dans Docker Bonnes pratiques (fr)"
-        url = "https://fr.slideshare.net/kanedafromparis/java-indocker-devoxxfr-2018"
-        date = "Apr 2018"
-        conference = "Devoxx France 2018, Paris, France and Devoxx Maroc, Marrakech, Nov 2018"
-        details = "Video [https://youtu.be/vzpU2jxrxJ8](https://youtu.be/vzpU2jxrxJ8)"
-
-        [[params.talks.list]]
-        title = "Raconte-moi X.509 : anatomie d'une autorité de certification (fr)"
-        url = "https://fr.slideshare.net/JeanChristopheSirot/racontemoi-x509-anatomie-dune-autorit-de-certification"
-        date = "Apr 2017"
-        conference = "Devoxx France 2017, Paris, France"
-        details = "Video [https://youtu.be/DK2mEx5g-2g](https://youtu.be/DK2mEx5g-2g)"
-
